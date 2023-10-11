@@ -1,44 +1,60 @@
-* {
+/* * {
     border: 1px solid black;
-}
+} */
 a{
         text-decoration: none;
         color: #333;
     }
 /* Top */
 
-    main{
-        display: flex;
+    body{
+        background-image: url(background.png); /* Replace 'your-image-url.jpg' with the URL or path to your image */
+    background-size: cover; /* Adjust the background size as needed (e.g., cover, contain) */
+    /* background-position: center center; Center the image horizontally and vertically */
+    /* background-repeat: no-repeat; /* */
     }
 
 header h1{
-    margin: auto;
+    /* margin: auto; */
     border: 2px;
     text-align: center;
     width: 300px;
-    float: center;
+    /* float: center; */
+    align-items: center;
     
 }
 
 .nav {
    
-    display: inline-block;
-   
-    width: 400px;
+    
+    border-right: 1px solid black; 
+    padding: 10px; 
+    width: 400px; 
     text-decoration: none;
-    margin-right: 10px;
+    
+    
+       
+    
+    
+    
+        
+    
 
 }
 /* middle */
 .container{
-    position: end;
+    /* flex-direction: column; */
+    /* display: flex; */
+    /* position: end; */
     height: 300px;
-    width: 600px;
+    width: 48%;
     margin: 25px;
     text-align: center;
     /* float: inline-start; */
     border-radius: 12px;
     box-shadow: 0 0 14px #868e96;
+    float: left;
+    background-color: rgba(238, 240, 242, 0.5)
 }
 .container h3{
     display: inline-block;
@@ -48,36 +64,49 @@ header h1{
     list-style: none;
     text-align: left;
     padding: 2px;
+}
+
+ #second-part{
+    width: 48%;
     
+    
+ 
+ }
 .pag-intro{
     text-align: center;
     
 }
-.pag-intro img{
-    display: inline-block;
+.container img{
+   
     margin-top: 5px;
-    height: 350px;
+    height: 100px;
     width: 400px;
     border-radius: 12px;
+text-align: center;
     
  
 }
 .pag-intro p{
     text-align: center;
 }
-}
+
 .article-list{
     width: 700px;
 }
 /* This goes by the right side */
 .sponsored-container{
-    float: right;
+    
+    margin-left: auto;
+    margin-right: 200px;
     height: auto;
     width: 300px;
-    margin-right: 5px;
+    /* margin-right: 5px; */
     text-align: center;
     border-radius: 12px;
     box-shadow: 0 0 14px #868e96;
+    position: absolute
+    /* float: right; */
+    clear: both;
 }
 .sponsored-container h3{
     padding: 3px;
