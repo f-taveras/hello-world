@@ -1,0 +1,40 @@
+* {
+    border: 1px solid black
+}
+header h1{
+    margin: auto;
+    border: 2px;
+
+    text-align: center;
+    width: 300px;
+    float: center;
+    
+}
+
+nav {
+    width: 400px;
+}
+.nav .top-nav{
+    /* text-align: left; */
+    display: inline-block;
+    /* float: left; */
+    width: 300px;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+#pag-intro{
+    text-align: center;
+    
+}
+#pag-intro img{
+    display: inline-block;
+ 
+    
+}
+ 
+
+  /* img{
+    display: inline-block;
+  } */
