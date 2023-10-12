@@ -5,6 +5,9 @@ a{
         text-decoration: none;
         color: #333;
     }
+    a:hover{
+        color: blue;
+    }
 /* Top */
 
     body{
@@ -31,16 +34,10 @@ header h1{
     padding: 10px; 
     width: 400px; 
     text-decoration: none;
+    color: #333;
     
-    
-       
-    
-    
-    
-        
-    
-
 }
+
 /* middle */
 .container{
     /* flex-direction: column; */
