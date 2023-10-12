@@ -11,10 +11,8 @@ a{
 /* Top */
 
     body{
-        background-image: url(background.png); /* Replace 'your-image-url.jpg' with the URL or path to your image */
-    background-size: cover; /* Adjust the background size as needed (e.g., cover, contain) */
-    /* background-position: center center; Center the image horizontally and vertically */
-    /* background-repeat: no-repeat; /* */
+        background-image: url(background.png); 
+    background-size: cover; 
     }
 
 header h1{
