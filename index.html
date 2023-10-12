@@ -6,19 +6,30 @@
     <title>Hot n' ready News!</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<script>
+    const yourName = prompt('Welcome to my page! Identify yourself!')
+    const message = "Hello, World!";
+const someValue = 42;
+console.log(yourName)
+alert(`Message: ${message}\nSome Value: ${someValue}`);
+    
+    alert(`Hi! ${yourName}\nThis page is only for gorgeous Folks`);
+    prompt('Are you gorgeous?');
+</script>
 <body>
     <header>
         <h1>Baking Knews!</h1>
-        <nav>
-        <a class="top-nav">Home</a>
-        <a class="top-nav" href="">outide</a>
-        <a class="top-nav" href="">kitchen</a>
-        <a class="top-nav" href="">Dany's house</a>
-        <a class="top-nav" href="">Sponsoring partner</a>
+        <nav class="nav">
+        <a  href="">Home</a>
+        <a  href="">outide</a>
+        <a  href="">kitchen</a>
+        <a  href="">Dany's house</a>
+        <a  href="">Sponsoring partner</a>
         </nav>
     </header>
-
-    <section class="pag-intro">
+    <main>
+    <section>
         <div class="container">
         
         <img src="./pizza.png" alt="an image of a serious pizza" width="150" height="100">
@@ -41,7 +52,7 @@
     </div>
         </section>
         
-    <section id="article-list">
+    <section class="article-list">
         <div class="container">
         <h3>Articles of the week</h3>
         
@@ -53,9 +64,8 @@
         <li><a href="">Inflation! and how to manage baking powder</a></li>
     </div>
     </section>
-    <aside>
-    <section>
-        
+
+   
         <div class="sponsored-container">
                 <h2>Visit our parners!</h2>
                     <h3>Get your muscles baking with <a href="https://brendanhuddleston18.github.io/hello-world/">Brendan</a></h3>
@@ -65,18 +75,18 @@
                Quidem earum veritatis aliquam eum ullam, enim sint non
                vitae, aut minus nihil. Perspiciatis, iste nisi. 
                Dolorem vel temporibus ea quae officia.</p>
+               <button>Cookbook</button>
+               <button>Bakestagram</button>
+               <button>Tweezler</button>
         </div>
-    </section>
-</aside>
-    <section>
-        <button>Cookbook</button>
-        <button>Bakestagram</button>
-        <button>Tweezler</button>
-    </section>
-    <main></main>
+    
+    
+   
+   
+    </main>
     <footer>
-        <section>
-            <nav>
+        <section class="bottom">
+            <nav class="bottom-nav">
                 <a href="">Contact Us</a>
                 <a href="">Delivery</a>
                 <a href="">Bake off season</a>

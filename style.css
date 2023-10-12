@@ -1,7 +1,16 @@
 * {
-    border: 1px solid black
-    
+    border: 1px solid black;
 }
+a{
+        text-decoration: none;
+        color: #333;
+    }
+/* Top */
+
+    main{
+        display: flex;
+    }
+
 header h1{
     margin: auto;
     border: 2px;
@@ -11,41 +20,25 @@ header h1{
     
 }
 
-nav {
-    width: 400px;
-}
-.nav .top-nav{
-    /* text-align: left; */
+.nav {
+   
     display: inline-block;
-    /* float: left; */
-    width: 300px;
+   
+    width: 400px;
     text-decoration: none;
     margin-right: 10px;
 
 }
-.pag-intro{
-    text-align: center;
-    
-    
-    
-}
-.pag-intro img{
-    display: inline-block;
-    margin-top: 5px;
-    height: 350px;
-    width: 400px;
-    border-radius: 12px;
-    box-shadow: 0 0 14px #868e96;    
- 
-}
-.pag-intro p{
-    text-align: center;
-}
+/* middle */
 .container{
+    position: end;
+    height: 300px;
     width: 600px;
     margin: 25px;
     text-align: center;
-    float: inline-start;
+    /* float: inline-start; */
+    border-radius: 12px;
+    box-shadow: 0 0 14px #868e96;
 }
 .container h3{
     display: inline-block;
@@ -54,16 +47,37 @@ nav {
 .container li{
     list-style: none;
     text-align: left;
+    padding: 2px;
+    
+.pag-intro{
+    text-align: center;
+    
 }
-
-.sponsored-container{
-    float: center;
-    text-align: right;
+.pag-intro img{
     display: inline-block;
+    margin-top: 5px;
+    height: 350px;
+    width: 400px;
+    border-radius: 12px;
+    
+ 
+}
+.pag-intro p{
+    text-align: center;
+}
+}
+.article-list{
+    width: 700px;
+}
+/* This goes by the right side */
+.sponsored-container{
+    float: right;
     height: auto;
     width: 300px;
     margin-right: 5px;
     text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 14px #868e96;
 }
 .sponsored-container h3{
     padding: 3px;
@@ -73,7 +87,21 @@ nav {
     height: 300px;
     width: 300px;
     border-radius: 12px;
-    box-shadow: 0 0 14px #868e96;
+    
 }
 
- 
+/* Bottom */
+
+ .bottom{
+    height: 200px;
+   
+    /* display: inline-block; */
+    align-content: flex-end;
+    text-decoration: none;
+}
+.bottom-nav{
+    margin: 10px;
+    position: absolute;
+     left: 0;
+     bottom: 0;
+ }
