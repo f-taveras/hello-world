@@ -23,11 +23,11 @@ function welcomeMessages(){
     alert(`Hi! ${yourName}\nThis page is only for fabulouse Folks`);
     let answer = prompt('Are you fabulous?');
 
-    if (answer == 'yes'){
+    if (answer == 'yes' || answer == 'Yes'){
         alert(`Confirmed! ${yourName}\nis gorgeous!`);
         document.write("You have been Gorgeous certfied " + yourName)
     }
-    else if (answer == "no"){
+    else if (answer == "no" || answer == 'No'){
         alert("Don't worry, we'll let you in this once")
         document.write(`Don't worry! ${yourName}\nyou'll get there`)
     }
@@ -40,13 +40,12 @@ return yourName;
 }
 
 function gameStart (){
-    alert (welcomeMessages() + "You have been a bad user, now you have to do some math!")
-    answer = prompt("wha's the sum of 10+10?")
+    alert (welcomeMessages(yourName) + "You have been a bad user, now you have to do some math!")
+   let answer = prompt("wha's the sum of 10+10?")
     while (answer != "20")
-    alert ("Try harder, I believe in you")
-
+    answer = pompt("I believe in you! You got this!")
 }
 
 function userAnswer(){
-    document.write("Thank you for Joining us " + welcomeMessages())
+    document.write("Thank you for Joining us " + welcomeMessages(yourName))
 }
