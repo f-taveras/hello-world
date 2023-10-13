@@ -58,8 +58,8 @@ function bonus(){
 alert("You got it right!");
 let number = prompt("Now you get to pick any multiplier! Pick any number");
 
-while(number > 10){
-number = prompt ("You have been greety, But I'm nice, so try again")
+while(number > 10 && (!isNaN(number))){
+number = prompt ("You have been greedy, But I'm nice, so try again")
 }
 for (let i = 1; i <= number; i++) {
     document.write('<img class="alertImg" src="anchovy.png" alt="yes, anchovy" >');
