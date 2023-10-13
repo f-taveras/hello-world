@@ -56,7 +56,7 @@ function userAnswer(){
 function bonus(){
 
 alert("You got it right!");
-let number = prompt("Now you get to pick a any multiplier! Pick any number");
+let number = prompt("Now you get to pick any multiplier! Pick any number");
 
 while(number > 10){
 number = prompt ("You have been greety, But I'm nice, so try again")
