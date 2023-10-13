@@ -51,22 +51,19 @@ function userAnswer(){
 }
 
 
-// function isInteger(value) {
-//     return !isNaN(value) && Number.isInteger(Number(value));
-//   }
+
+
 function bonus(){
 
 alert("You got it right!")
 let number = prompt("Now you get to pick a any multiplier! Pick any number")
 
-// while (!number.isInteger) {
-//     userInput = prompt('Woah Woah! Easy partner, you are really trying me');
-//     if (isInteger(number)) 
-//       valid = true;
-// }
 while(number > 10){
 number = prompt ("You have been greety, But I'm nice, so try again")
-return number;    
+for (let i = 1; i <= number; i++) {
+    document.write('<img class="alertImg" src="anchovy.png" alt="yes, anchovy" >');
+  }
+
 }
 
 }
