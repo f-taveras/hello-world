@@ -129,3 +129,8 @@ text-align: center;
      left: 0;
      bottom: 0;
  }
+.alertImg{
+ width: 350px;
+ margin-left: 30px;
+ margin-top: 50px;
+}
