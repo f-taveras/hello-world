@@ -78,6 +78,7 @@ header h1{
     width: 400px;
     border-radius: 12px;
 text-align: center;
+position: relative;
     
  
 }
@@ -133,4 +134,10 @@ text-align: center;
  width: 350px;
  margin-left: 30px;
  margin-top: 50px;
+}
+
+.alertMessage {
+    align-items: center;
+    position: absolute;
+
 }

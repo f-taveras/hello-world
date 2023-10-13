@@ -63,9 +63,10 @@ number = prompt ("You have been greedy, But I'm nice, so try again")
 }
 for (let i = 1; i <= number; i++) {
     document.write('<img class="alertImg" src="anchovy.png" alt="yes, anchovy" >');
-
-
+    
+    
 }
+document.write('<p class="alertMessage">You will get paid  anchovy of course</p>');
 
 }
 
