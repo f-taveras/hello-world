@@ -39,13 +39,37 @@ function welcomeMessages(){
 return yourName;
 }
 
-function gameStart (){
-    alert (welcomeMessages(yourName) + "You have been a bad user, now you have to do some math!")
-   let answer = prompt("wha's the sum of 10+10?")
-    while (answer != "20")
-    answer = pompt("I believe in you! You got this!")
+function gameStart(){
+    alert ("You have been a bad user, now you have to do some math!")
+   let answer = prompt("what's the sum of 10+10?")
+    while (answer != 20)
+    answer = prompt(" You got this! what's the sum of 10+10?")
 }
 
 function userAnswer(){
     document.write("Thank you for Joining us " + welcomeMessages(yourName))
 }
+
+
+// function isInteger(value) {
+//     return !isNaN(value) && Number.isInteger(Number(value));
+//   }
+function bonus(){
+
+alert("You got it right!")
+let number = prompt("Now you get to pick a any multiplier! Pick any number")
+
+// while (!number.isInteger) {
+//     userInput = prompt('Woah Woah! Easy partner, you are really trying me');
+//     if (isInteger(number)) 
+//       valid = true;
+// }
+while(number > 10){
+number = prompt ("You have been greety, But I'm nice, so try again")
+return number;    
+}
+
+}
+
+
+
